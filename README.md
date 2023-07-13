@@ -2,6 +2,43 @@
 
 Contracts for GMX Synthetics.
 
+<details>
+    <summary>Contents</summary>
+
+- [Overview](#general-overview)
+  - [Markets](#markets)
+  - [Features](#features)
+  - [Oracle-System](#oracle-system)
+  - [Fees-and-Pricing](#fees-and-pricing)
+  - [Keepers](#keepers)
+  - [Structure](#structure)
+- [Technical-Overview](#technical-overview)
+  - [Exchange-Contracts](#exchange-contracts)
+  - [Markets](#markets)
+  - [Deposits](#deposits)
+  - [Withdrawals](#withdrawals)
+  - [Market-Swaps](#market-swaps)
+  - [Limit-Swaps](#limit-swaps)
+  - [Market-Increase](#market-increase)
+  - [Limit-Increase](#limit-increase)
+  - [Market-Decrease](#market-decrease)
+  - [Limit-Decrease](#limit-decrease)
+  - [Stop-Loss-Decrease](#stop-loss-decrease)
+- [Order-Pricing](#order-pricing)
+- [Oracle-Prices](#oracle-prices)
+    - [Examples](#examples)
+    - [Decimal-Multiplier](#decimal-multiplier)
+- [Funding-Fees](#funding-fees)
+- [Borrowing-Fees](#borrowing-fees)
+    - [Price-Impact](#price-impact)
+- [Fees](#fees)
+- [Reserve-Amounts](#reserve-amounts)
+- [Parameters](#parameters)
+- [Known-Issues](#known-issues)
+- [Feature-Development](#feature-development)
+- [Command](#command)
+</details>
+
 # General Overview
 
 This section provides a general overview of how the system works.
